@@ -278,7 +278,7 @@
                         <div class="col-lg-12">
                             <!-- hero slider content -->
                             <div class="hero-slider-content hero-slider-content--extra-space">
-                                <h3 class="hero-slider-content__subtitle">RIDGE ENGINEERS AND ARCHITECTURES</h3>
+                                <h3 class="hero-slider-content__subtitle">Ridge - Engineers and Architects</h3>
                                 <h2 class="hero-slider-content__title space__bottom--50">We Construct your Dream in Live</h2>
                                 <a href="contact.html" class="default-btn default-btn--hero-slider">Contact Us</a>
                             </div>
