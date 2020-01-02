@@ -8,6 +8,6 @@ class HomeController extends Controller
 {
     public function home()
     {
-    	return view('frontend.home', compact('scats','smode'));
+    	return view('frontend.home');
     }
 }
