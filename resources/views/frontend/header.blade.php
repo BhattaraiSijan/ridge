@@ -1,7 +1,7 @@
 <!--====================  header area ====================-->
 <div class="header-area header-sticky bg-img space__inner--y40 background-repeat--x background-color--dark d-none d-lg-block" data-bg="assets/img/icons/ruler.png">
         <!-- header top -->
-        <div class="header-top">
+        <!-- <div class="header-top">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- menu bar -->
         <div class="menu-bar position-relative">
             <div class="container">
@@ -44,59 +44,11 @@
                                             <!-- navigation menu -->
                                             <nav class="main-nav-menu">
                                                 <ul class="d-flex justify-content-end">
-                                                    <li class="has-sub-menu">
-                                                        <a href="index.html">Home</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="index.html">Home One</a></li>
-                                                            <li><a href="index-2.html">Home Two</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="about.html">About</a></li>
-                                                    <li class="has-sub-menu">
-                                                        <a href="service.html">Service</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="service.html">Service Page</a></li>
-                                                            <li><a href="service-details.html">Service Details Left Sidebar</a></li>
-                                                            <li><a href="service-details-right-sidebar.html">Service Details Right Sidebar</a></li>
-                                                            <li class="has-sub-menu">
-                                                                <a href="#">Submenu Level One</a>
-                                                                <ul class="sub-menu">
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="has-sub-menu">
-                                                        <a href="project.html">Project</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="project.html">Project Page</a></li>
-                                                            <li><a href="project-details.html">Project Details</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="has-sub-menu">
-                                                        <a href="blog-left-sidebar.html">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                                                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                                                            <li><a href="blog-details-left-sidebar.html">Blog Details Left Sidebar</a></li>
-                                                            <li><a href="blog-details-right-sidebar.html">Blog Details Right Sidebar</a></li>
-                                                            <li class="has-sub-menu">
-                                                                <a href="#">Submenu Level One</a>
-                                                                <ul class="sub-menu">
-                                                                    <li class="has-sub-menu">
-                                                                        <a href="#">Submenu Level Two</a>
-                                                                        <ul class="sub-menu">
-                                                                            <li><a href="#">Submenu Level Three</a></li>
-                                                                            <li><a href="#">Submenu Level Three</a></li>
-                                                                        </ul>
-                                                                    </li>
-                                                                    <li><a href="#">Submenu Level Two</a></li>
-                                                                </ul>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="{{ route('home') }}">Home</a></li>
+                                                    <li><a href="{{ route('about') }}">About</a></li>
+                                                    <li><a href="{{ route('service') }}">Service</a></li>
+                                                    <li><a href="{{ route('project') }}">Project</a></li>
+                                                    <li><a href="{{ route('contact') }}">Contact</a></li>
                                                 </ul>
                                             </nav>
                                             <!-- search icon nav menu -->
@@ -139,4 +91,4 @@
             </div>
         </div>
     </div>
-    <!--====================  End of mobile header  ====================-->
+    <!--====================  End of mobile header  ====================
