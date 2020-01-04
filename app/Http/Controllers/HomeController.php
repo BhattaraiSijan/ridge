@@ -13,6 +13,7 @@ class HomeController extends Controller
 
     public function about()
     {
+    	dd("HERE");
     	return view('frontend.pages.about');
     }
 
